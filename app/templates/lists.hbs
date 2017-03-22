@@ -1,0 +1,7 @@
+{{#each model as |list|}}
+  {{shopping-list/card list=list}}
+{{/each}}
+
+{{#link-to 'index'}}Back{{/link-to}}
+
+{{outlet}}
